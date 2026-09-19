@@ -14,7 +14,7 @@ services:
     volumes:
       - source: paris
         target: /var/lib/mysql
-        type: volumes
+        type: volume
   
   backend:
     image: backend:0.0
