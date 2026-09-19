@@ -2,7 +2,8 @@ ARG version
 FROM almalinux:${version:-10}
 ARG sudheer="lazyboy"
 ARG vineela="smartgirl"
-RUN echo "Sudheer is a ${sudheer} vineela is ${vineela} "
+ENV sindhu="hot boobs"
+RUN echo "Sudheer is a ${sudheer} vineela is ${vineela} sindhu is ${sindhu} "
 CMD ["sleep", "100"]
 
 
