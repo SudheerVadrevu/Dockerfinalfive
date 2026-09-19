@@ -2,6 +2,9 @@ name: expense
 networks:
   default:
     name: swiss
+volumes:
+  paris:
+    external: true
 
 services:
 
